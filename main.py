@@ -37,7 +37,6 @@ if __name__ == "__main__":
     input_filename = "random_int.py"
     output_filename = "random_int_converted.py"
     convert_python_file(input_filename, output_filename)
-    print(f"转换完成，结果已保存至 {output_filename}") 在这个文件中编写代码实现题目要求的功能
-import keyword  # 建议使用这个库处理关键字
-reserved_words = set(keyword.kwlist)
+    print(f"转换完成，结果已保存至 {output_filename}") 
+
 
